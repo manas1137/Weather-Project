@@ -1,74 +1,206 @@
-# Weather Project (React + Express)
+# 🌦️ Weather Intelligence Dashboard
 
-A full-stack weather dashboard with a React frontend and an Express backend powered by WeatherAPI.
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0d1117,50:1f6feb,100:0d1117&text=Weather%20Forecast%20Dashboard&fontColor=ffffff&fontSize=48&fontAlignY=38&desc=Smart%20Weather%20Insights%20%7C%20Powered%20by%20MERN%20Stack&descAlignY=58&animation=fadeIn"/>
+</p>
 
-## Features
+<p align="center">
+  <b>A modern full-stack weather platform delivering real-time forecasts, analytics, and environmental insights.</b>
+</p>
 
-- Search cities with typeahead suggestions
-- Today, Hourly, 10-Day, Monthly, Graph, and Air Quality views
-- Backend caching + basic rate limiting
-- Responsive UI (works on mobile/tablet/desktop)
+<p align="center">
+  🌍 Real-time Data • 📊 Visual Insights • ⚡ Fast API • 📱 Responsive UI
+</p>
 
-## Tech Stack
+---
 
-- Frontend: React (Create React App), React Router, Bootstrap (CSS)
-- Backend: Node.js, Express, Axios
-- Weather data: WeatherAPI (`forecast.json` + `search.json`)
+## 🚀 Overview
 
-## Getting Started (Local)
+This project is a **full-stack Weather Dashboard** built using the **MERN stack (React + Express)** that provides:
 
-### 1) Backend
+- Real-time weather updates  
+- Advanced forecast visualizations  
+- Air quality insights  
+- Smart caching for performance optimization  
 
-1. Install dependencies:
-   - `cd backend`
-   - `npm install`
-2. Create your env file:
-   - Copy `backend/.env.example` -> `backend/.env`
-   - Set `API_KEY` to your WeatherAPI key
-3. Run:
-   - `npm run dev` (recommended) or `npm start`
+---
 
-Backend runs on `http://localhost:5000` by default.
+## ✨ Features
 
-### 2) Frontend
+- 🔍 City Search with Autocomplete  
+- 🌤️ Current Weather (Today View)  
+- ⏱️ Hourly Forecast  
+- 📅 10-Day & Monthly Forecast  
+- 📊 Graph-based Weather Visualization  
+- 🌫️ Air Quality Index (AQI)  
+- ⚡ Backend Caching  
+- 🛡️ Rate Limiting  
+- 📱 Fully Responsive UI  
 
-1. Install dependencies:
-   - `cd frontend`
-   - `npm install`
-2. (Optional) Configure API base URL:
-   - Copy `frontend/.env.example` -> `frontend/.env`
-3. Run:
-   - `npm start`
+---
 
-Frontend runs on `http://localhost:3000` by default.
+## 🧠 Tech Stack
 
-## Environment Variables
+### 🎨 Frontend
+- React (Create React App)  
+- React Router  
+- Bootstrap  
+
+### ⚙️ Backend
+- Node.js  
+- Express.js  
+- Axios  
+
+### 🌐 API
+- WeatherAPI (`forecast.json`, `search.json`)  
+
+---
+
+## 🏗️ Project Structure
+
+```
+weather-project/
+│
+├── backend/
+│   ├── controllers/
+│   ├── routes/
+│   ├── services/
+│   ├── utils/
+│   └── server.js
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── utils/
+│   └── public/
+│
+└── README.md
+```
+
+---
+
+## ⚙️ Getting Started
+
+### 🔹 Backend Setup
+
+```bash
+cd backend
+npm install
+```
+
+Create `.env` file:
+
+```
+API_KEY=your_weatherapi_key
+PORT=5000
+```
+
+Run backend:
+
+```bash
+npm run dev
+```
+
+---
+
+### 🔹 Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+---
+
+## 🔐 Environment Variables
 
 ### Backend (`backend/.env`)
 
-- `API_KEY` (required): WeatherAPI key
-- `PORT` (optional): defaults to `5000`
-- `CORS_ORIGIN` (optional): defaults to `*` (allow all). Example: `http://localhost:3000`
-- `CACHE_TTL_MS` (optional): cache duration in ms (default: 10 minutes)
-- `RATE_LIMIT_WINDOW_MS` (optional): rate limit window (default: 15 minutes)
-- `RATE_LIMIT_MAX` (optional): max requests per window (default: 60)
+| Variable | Description |
+|----------|------------|
+| API_KEY | WeatherAPI key |
+| PORT | Server port |
+| CORS_ORIGIN | Allowed origin |
+| CACHE_TTL_MS | Cache duration |
+| RATE_LIMIT_WINDOW_MS | Rate limit window |
+| RATE_LIMIT_MAX | Max requests |
+
+---
 
 ### Frontend (`frontend/.env`)
 
-- `REACT_APP_API_BASE` (optional): backend base URL (default: `http://localhost:5000`)
+| Variable | Description |
+|----------|------------|
+| REACT_APP_API_BASE | Backend base URL |
 
-## API Endpoints
+---
 
-- `GET /api/health` -> `{ status: "ok" }`
-- `GET /api/weather/:city` -> WeatherAPI forecast payload (7 days + AQI)
-- `GET /api/weather/search?q=...` -> location suggestions
+## 🔗 API Endpoints
 
-## Project Structure
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/api/health` | Health check |
+| GET | `/api/weather/:city` | Weather forecast |
+| GET | `/api/weather/search?q=` | City suggestions |
 
-- `backend/` Express API server
-- `frontend/` React app UI
+---
 
-## Notes
+## ⚡ Performance
 
-- Don't commit secrets: keep `backend/.env` private (it's ignored by git).
-- If PowerShell blocks `npm` scripts, run commands from Command Prompt, or prefix with `cmd /c`.
+- Smart caching reduces API calls  
+- Fast response times  
+- Rate limiting for protection  
+
+---
+
+## 📸 Preview
+
+_Add screenshots here_
+
+---
+
+## 🛠️ Future Enhancements
+
+- 🌍 Geolocation weather  
+- 🔔 Alerts & notifications  
+- 🌙 Dark mode  
+- 📊 Advanced analytics  
+- 📡 Live radar  
+
+---
+
+## ⚠️ Notes
+
+- Do NOT commit `.env` files  
+- Use `.env.example` for sharing  
+- If PowerShell blocks npm:
+  - Use Command Prompt  
+  - OR run: `cmd /c npm start`  
+
+---
+
+## 👨‍💻 Author
+
+**Manas Kadam**  
+*MERN Stack Developer | UI/UX Focused Engineer*
+
+---
+
+## ⭐ Support
+
+If you like this project:
+
+- ⭐ Star the repo  
+- 🍴 Fork it  
+- 🚀 Use in your portfolio  
+
+---
+
+## 🔥 Tagline Ideas
+
+- Next-Level Weather Intelligence  
+- Forecasting Meets Intelligence  
+- Smart Weather, Smarter Decisions  
+- Your Personal Weather Analytics Engine  
