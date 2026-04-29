@@ -12,6 +12,13 @@
   🌍 Real-time Data • 📊 Visual Insights • ⚡ Fast API • 📱 Responsive UI
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge&logo=react"/>
+  <img src="https://img.shields.io/badge/Backend-Node.js-green?style=for-the-badge&logo=node.js"/>
+  <img src="https://img.shields.io/badge/API-WeatherAPI-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
+</p>
+
 ---
 
 ## 🚀 Overview
@@ -157,16 +164,25 @@ npm start
 
 ## 📸 Preview
 
-Home Page
-<img width="1891" height="963" alt="image" src="https://github.com/user-attachments/assets/4814385f-5ce0-49ab-8889-6f34e5a82e2f" />
-Hourly Data
-<img width="1889" height="903" alt="image" src="https://github.com/user-attachments/assets/84cb49f8-4dee-45b4-9946-9ac9791f8c61" />
-Monthly
-<img width="1919" height="882" alt="image" src="https://github.com/user-attachments/assets/ace738e6-1b69-44ec-a31a-5c36f1ce127f" />
-Graph
-<img width="1918" height="914" alt="image" src="https://github.com/user-attachments/assets/83703e76-1913-4ab6-8a3c-c7260357e969" />
+### 🏠 Home Page
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4814385f-5ce0-49ab-8889-6f34e5a82e2f" width="90%"/>
+</p>
 
+### ⏱️ Hourly Forecast
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/84cb49f8-4dee-45b4-9946-9ac9791f8c61" width="90%"/>
+</p>
 
+### 📅 Monthly View
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ace738e6-1b69-44ec-a31a-5c36f1ce127f" width="90%"/>
+</p>
+
+### 📊 Graph Analytics
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/83703e76-1913-4ab6-8a3c-c7260357e969" width="90%"/>
+</p>
 
 ---
 
@@ -201,15 +217,12 @@ Graph
 
 If you like this project:
 
-- ⭐ Star the repo  
+- ⭐ Star the repository  
 - 🍴 Fork it  
-- 🚀 Use in your portfolio  
+- 🚀 Use it in your portfolio  
 
 ---
 
-## 🔥 Tagline Ideas
+## 🔥 Tagline
 
-- Next-Level Weather Intelligence  
-- Forecasting Meets Intelligence  
-- Smart Weather, Smarter Decisions  
-- Your Personal Weather Analytics Engine  
+> **“Smart Weather, Smarter Decisions.”**
