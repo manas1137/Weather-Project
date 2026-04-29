@@ -157,7 +157,16 @@ npm start
 
 ## 📸 Preview
 
-_Add screenshots here_
+Home Page
+<img width="1891" height="963" alt="image" src="https://github.com/user-attachments/assets/4814385f-5ce0-49ab-8889-6f34e5a82e2f" />
+Hourly Data
+<img width="1889" height="903" alt="image" src="https://github.com/user-attachments/assets/84cb49f8-4dee-45b4-9946-9ac9791f8c61" />
+Monthly
+<img width="1919" height="882" alt="image" src="https://github.com/user-attachments/assets/ace738e6-1b69-44ec-a31a-5c36f1ce127f" />
+Graph
+<img width="1918" height="914" alt="image" src="https://github.com/user-attachments/assets/83703e76-1913-4ab6-8a3c-c7260357e969" />
+
+
 
 ---
 
